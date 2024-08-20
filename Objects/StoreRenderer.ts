@@ -1,8 +1,8 @@
-import electron from 'electron';
+//import electron from 'electron';
 import path from 'path';
 // import fs from 'fs';
 const {ipcRenderer} = require('electron');
-//const electron = require('electron');
+const electron = require('electron');
 import { IpcRendererEvent } from 'electron/main';
 
 export default class Store {
