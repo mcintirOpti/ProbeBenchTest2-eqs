@@ -1,4 +1,4 @@
-//import electron from 'electron';
+import electron from 'electron';
 import { IpcRendererEvent } from 'electron/main';
 import React, {useEffect,useState} from 'react';
 import {hot} from 'react-hot-loader';
